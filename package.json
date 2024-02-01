@@ -1,0 +1,16 @@
+{
+  "name": "ani-me-downloader-proxy",
+  "version": "1.0.0",
+  "description": "Proxy backend for Ani-Me-Downloader",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "author": "Anirban Majumder",
+  "license": "ISC",
+  "devDependencies": {
+    "vercel": "^33.4.1"
+  },
+  "dependencies": {
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
