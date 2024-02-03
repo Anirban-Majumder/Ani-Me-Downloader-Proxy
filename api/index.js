@@ -1,5 +1,4 @@
 import { createProxyMiddleware } from "http-proxy-middleware";
-import { inject } from '@vercel/analytics';
  
 const apiProxy = createProxyMiddleware({
   target: "https://nyaa.si",
