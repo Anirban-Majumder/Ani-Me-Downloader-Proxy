@@ -10,6 +10,5 @@ const apiProxy = createProxyMiddleware({
  
 // Expose the proxy on the "/api/*" endpoint.
 export default function (req, res) {
-  inject();
   return apiProxy(req, res);
 }
